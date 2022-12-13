@@ -2,6 +2,8 @@ package com.github.tests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.testng.reporters.jq.Main;
+
 import static org.testng.Assert.assertEquals;
 
 public class SandBoxClass {
@@ -17,6 +19,22 @@ public class SandBoxClass {
 			log.error("Error: ", e);
 			assertEquals(true, false);
 		}
+
+	}
+	
+	// This is a for-loop
+	public static void doLoop() {
+		
+		for(int i = 0; i <= 10; i++) {
+			System.out.println(i);
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Count 1 thru 10");
+		doLoop();
+		
 	}
 	
 }
