@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class RockPaperScissorsClass {
 	
+	//This is a Rock, Paper, Scissors game...
 	public static void main(String[] args) {
         // 0 for Rock
         // 1 for Paper
